@@ -1,0 +1,18 @@
+.cardChildren div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.cardChildren p {
+  padding: 35px 45px;
+  margin-left: 20px;
+  background-color: aquamarine;
+  color: black;
+}
+
+.cardChildren p:hover {
+  box-shadow: 2px 7px 45px 41px rgba(0, 255, 116, 0.75);
+  -webkit-box-shadow: 2px 7px 45px 41px rgba(0, 255, 116, 0.75);
+  -moz-box-shadow: 2px 7px 45px 41px rgba(0, 255, 116, 0.75);
+}
